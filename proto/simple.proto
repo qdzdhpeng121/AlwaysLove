@@ -1,0 +1,5 @@
+message SearchRequest {
+  required string query = 1;  // 查询字符串
+  optional int32 page_number = 2;  // 第几页
+  optional int32 result_per_page = 3;  // 每页的结果数
+}
