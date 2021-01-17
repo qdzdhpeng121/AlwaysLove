@@ -4,6 +4,7 @@
 
 #include"req.h"
 #include"proto/protoLearn.h"
+#include"leveldb/leveldbLearn.h"
 
 int main(int argc, char* argv[]){
     // std::cout << "Alway Love C++" << std::endl;
@@ -28,5 +29,7 @@ int main(int argc, char* argv[]){
 
     // AlwaysLove::writeToFile();
     // AlwaysLove::readFromFile();
+
+    AlwaysLove::readAndWrite();
     return 0;
 }

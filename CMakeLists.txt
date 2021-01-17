@@ -6,6 +6,8 @@ project(AlwaysLove)
 
 add_subdirectory(proto)
 
+add_subdirectory(leveldb)
+
 add_executable(AlwaysLove main.cc req.cc)
 
-target_link_libraries(AlwaysLove ProtoLearn protobuf)
+target_link_libraries(AlwaysLove ProtoLearn protobuf LeveldbLearn leveldb)
