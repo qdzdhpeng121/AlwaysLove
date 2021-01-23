@@ -8,6 +8,8 @@ add_subdirectory(proto)
 
 add_subdirectory(leveldb)
 
+add_subdirectory(brpc)
+
 add_executable(AlwaysLove main.cc req.cc)
 
 target_link_libraries(AlwaysLove ProtoLearn protobuf LeveldbLearn leveldb)
