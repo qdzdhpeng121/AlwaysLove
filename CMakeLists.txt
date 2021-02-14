@@ -13,3 +13,7 @@ add_subdirectory(brpc)
 add_executable(AlwaysLove main.cc req.cc)
 
 target_link_libraries(AlwaysLove ProtoLearn protobuf LeveldbLearn leveldb)
+
+#google test
+add_subdirectory(gtest)
+enable_testing()
